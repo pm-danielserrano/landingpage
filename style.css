@@ -1,6 +1,6 @@
 body {
 	background-color: black;
-	background-image: url(images/bg3.jpg);
+	background-image: url(images/bg_lp.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
@@ -20,7 +20,7 @@ h2 {
 }
 
 p {
-	font-size: 20px;
+	font-size: 16px;
 	padding: 0 10% 0 10%;
 }
 
@@ -29,32 +29,51 @@ a {
 }
 
 .botao {
+	padding: 5% 0 0 0;
 	text-decoration: none;
-	background-color: rgba(120, 4, 37, 0.2);
+	background-color: rgba(0, 0, 0, 0.5);
 	color: white;
-	font-size: 20px;
+	font-size: 12px;
 	padding: 10px 15px 10px 15px;
 	border-radius: 4px;
-	margin-top: 50px;
 }
+
 .botao:hover {
 	text-decoration: none;
 	background-color: white;
-	color: rgba(120, 4, 37, 0.2);
+	color: rgba(0, 0, 0, 0.2);
 }
 
-.lista {
+
+.lista_botao {
+	padding: 5% 0 0 0;
 	list-style: none;
 	padding-left: 0;
-	margin-top: 150px;
-
 }
 
-.lista li {
+.lista_botao li {
 	display: inline;
 }
 
-.lista a {
+.lista_botao a {
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+}
+
+
+.lista_social {
+	padding: 5% 0 0 0;
+	list-style: none;
+	padding-left: 0;
+}
+
+.lista_social li {
+	display: inline;
+}
+
+.lista_social a {
+	text-decoration: none;
 	color: white;
 	font-size: 25px;
 }
